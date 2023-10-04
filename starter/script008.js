@@ -18,6 +18,7 @@ let job = '';
 console.log(job);
 // 5. Affecter la valeur Enseignat à la variable job et l'afficher 
 job = 'Enseigant';
+console.log(job);
 
 // 6. Règles de nommage des variables : le nom ne peut pas 
 // - commencer par un chiffre

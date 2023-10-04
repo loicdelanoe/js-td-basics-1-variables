@@ -14,4 +14,11 @@ avec les valeurs 4 et 5 selon qu'elles sont de type nombre ou de type chaîne  :
 - que se passe-t-il si on entoure toute l'expression (VALEUR OPÉRANDE VALEUR) de guillemets ? Pourquoi ?
 */
 
+const nombre = 4 + 5; // Résultat = 9
+// L'opérateur réalise nombre + nombre
 
+const chaine = '4' + '5'; // Résultat = 45
+// L'opérateur réalise string + string
+
+const mix = '4' + 5 // Résultat = 45
+// L'opérateur réalise string + nombre

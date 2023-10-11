@@ -20,4 +20,19 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
+const poidsMark = 60;
+const poidsJohn = 80;
 
+const tailleMark = 1.8;
+const tailleJohn = 1.4;
+
+const bmiMark = poidsMark / tailleMark^2;
+const bmiJohn = poidsJohn / tailleJohn^2;
+
+if (bmiMark < bmiJohn) {
+    console.log(`Le BMI de Mark (${bmiMark}) est inférieur à celui de John (${bmiJohn})`);
+} else if (bmiMark === bmiJohn) {
+        console.log(`Le BMI de Mark (${bmiMark}) est égal à celui de John (${bmiJohn})`);
+} else {
+        console.log(`Le BMI de Mark (${bmiMark}) est supérieur à celui de John (${bmiJohn})`);
+}
